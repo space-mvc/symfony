@@ -1,0 +1,109 @@
+# users
+get_users:
+  path: /api/users
+  methods: [GET]
+  controller: App\Controller\UserController::getUsers
+
+# Publishers
+get_publishers:
+  path: /api/publishers
+  methods: [GET]
+  controller: App\Controller\PublisherController::getPublishers
+
+get_publisher:
+  path: /api/publishers/{id}
+  methods: [GET]
+  controller: App\Controller\PublisherController::getPublisher
+
+create_publisher:
+  path: /api/publishers
+  methods: [POST]
+  controller: App\Controller\PublisherController::createPublisher
+
+update_publisher:
+  path: /api/publishers/{id}
+  methods: [PUT]
+  controller: App\Controller\PublisherController::updatePublisher
+
+delete_publisher:
+  path: /api/publishers/{id}
+  methods: [DELETE]
+  controller: App\Controller\PublisherController::deletePublisher
+
+# Websites
+get_websites:
+  path: /api/websites
+  methods: [GET]
+  controller: App\Controller\WebsiteController::getWebsites
+
+get_website:
+  path: /api/websites/{id}
+  methods: [GET]
+  controller: App\Controller\WebsiteController::getWebsite
+
+create_website:
+  path: /api/websites
+  methods: [POST]
+  controller: App\Controller\WebsiteController::createWebsite
+
+update_website:
+  path: /api/websites/{id}
+  methods: [PUT]
+  controller: App\Controller\WebsiteController::updateWebsite
+
+delete_website:
+  path: /api/websites/{id}
+  methods: [DELETE]
+  controller: App\Controller\WebsiteController::deleteWebsite
+
+# Placeholders
+get_placeholders:
+  path: /api/placeholders
+  methods: [GET]
+  controller: App\Controller\PlaceholderController::getPlaceholders
+
+get_placeholder:
+  path: /api/placeholders/{id}
+  methods: [GET]
+  controller: App\Controller\PlaceholderController::getPlaceholder
+
+create_placeholder:
+  path: /api/placeholders
+  methods: [POST]
+  controller: App\Controller\PlaceholderController::createPlaceholder
+
+update_placecholder:
+  path: /api/placeholders/{id}
+  methods: [PUT]
+  controller: App\Controller\PlaceholderController::updatePlaceholder
+
+delete_placeholder:
+  path: /api/placeholders/{id}
+  methods: [DELETE]
+  controller: App\Controller\PlaceholderController::deletePlaceholder
+
+# Advertisers
+get_advertisers:
+  path: /api/advertisers
+  methods: [GET]
+  controller: App\Controller\AdvertiserController::getAdvertisers
+
+get_advertiser:
+  path: /api/advertisers/{id}
+  methods: [GET]
+  controller: App\Controller\AdvertiserController::getAdvertiser
+
+create_advertiser:
+  path: /api/advertisers
+  methods: [POST]
+  controller: App\Controller\AdvertiserController::createAdvertiser
+
+update_advertiser:
+  path: /api/advertisers/{id}
+  methods: [PUT]
+  controller: App\Controller\AdvertiserController::updateAdvertiser
+
+delete_advertiser:
+  path: /api/advertisers/{id}
+  methods: [DELETE]
+  controller: App\Controller\AdvertiserController::deleteAdvertiser

@@ -1,1 +1,1 @@
-# symfony
+ yarn encore dev --watch
